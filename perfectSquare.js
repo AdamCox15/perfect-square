@@ -14,3 +14,9 @@
 
 // perfectSquare(3000) // should return -1 (sq root of 3000 is 54.77)
 
+const perfectSquare = (num) => {
+    let num2 = Math.sqrt(num) + 1;
+    let answer = Math.pow(num2, 2)
+    return answer
+}
+console.log(perfectSquare(9));
